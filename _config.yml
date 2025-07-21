@@ -14,13 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MM
-email:
+email: vijay.g1729@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+Welcome to my personal website. I'm a full-stack machine learning engineer with a passion for building intelligent systems that solve real-world problems. This site is a space for me to share my work, insights, and ongoing projects in computer vision, natural language processing, and AI-driven safety solutions.
+I've created this website to create a collection of my blog posts and project deep dives that go beyond my resume.
+I explore the practical applications of technologies like PyTorch, Active Learning, Computer Vision, Large Language Models (LLMs), Transformers, and foundation models.
+
+twitter_username: bitcurian
+github_username: bitcurian
 minimal_mistakes_skin: default
 search: true
 
