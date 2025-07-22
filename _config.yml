@@ -59,10 +59,10 @@ plugins:
 author:
   name   : "Vijay G"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I'm a full-stack Machine learning engineer with over 5 years of experience."
+  bio    : "Full-stack Machine learning engineer who likes tinkering with new methods and products."
   links:
     - label: "Linkedin"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/vijay-gunasekaran/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
@@ -75,7 +75,7 @@ author:
 footer:
   links:
     - label: "Linkedin"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/vijay-gunasekaran/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
