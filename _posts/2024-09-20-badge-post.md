@@ -106,13 +106,13 @@ The K-means++ algorithm is remarkable in that it sets an initial state where the
 
 The experiments are conducted in a robust setting with 3 batch sizes(B) and 11 dataset(D)-architecture(A) pairs making the total number of (D,B,A) combinations to n=33. The labelling budget(L) is selected such that the learning is still progressive since all the algorithms eventually reach a similar performance for larger labelling budgets.  The experiments were conducted with a starting random dataset of 100 labelled samples. Each experiment is repeated 5 times and the average test error is used.
 
-<img src="/assets/imagesbadge_comp_matrix.jpg" alt="Comparison of BADGE with other active learning method">
+<img src="{{/assets/imagesbadge_comp_matrix.jpg | relative_url}}" alt="Comparison of BADGE with other active learning method">
 
 Fig. 2 - A pairwise penalty matrix over all experiments. Element P(i,j) corresponds roughly to the number of times algorithm ‘i’ outperforms algorithm ‘j’. Column-wise averages at the bottom show overall performance (lower is better).
 
 In the pairwise penalty matrix in Fig.2, BADGE generally outperforms all baselines. The matrix is constructed by accumulating a penalty of $1 / n_D,B,A$ for an element $P_{i,j}$ when algorithm i beats algorithm j in an experiment. The two-sided t-test is applied to each experiment on a set of 5 test errors (5 repeated experiments) for each algorithm. The two-sided t-test essentially determines if the mean error of either algorithm is the same, greater than or less than the other (p-value being 0.05).
 
-<img src="/assets/images/cdf_norm_errors.jpg" alt="Plot of the CDF of normalised errors">
+<img src="{{/assets/images/cdf_norm_errors.jpg | relative_url}}" alt="Plot of the CDF of normalised errors">
 
 Fig. 3 - The cumulative distribution function of normalised errors. The higher the CDF value, the better the performance of the algorithm.
 
