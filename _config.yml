@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Chest of Thoughts
 email: vijay.g1729@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
-A collection of blog posts and deep dives on machine learning, computer vision and Natual Language Processing.
+description: A collection of blog posts and deep dives on machine learning, computer vision and Natual Language Processing.
 twitter_username: bitcurian
 github_username: bitcurian
 minimal_mistakes_skin: default
