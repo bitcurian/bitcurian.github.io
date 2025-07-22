@@ -68,7 +68,7 @@ $$
 Where $L_CE$ is the cross-entropy loss with respect to the hypothetical true label. From the above derivation, we realise that each block of g$_x$ is a scaling of z(x; V ), which is the output of the penultimate layer of the network. In this respect, $g_x$ captures x’s representation information.
 The above formula shows that if the i-th block is the hypothetical true label then its gradients would be scaled by a factor of its (softmax score - 1) where I is the indicator function, otherwise it would be scaled by just the softmax score.
 
-<img src="/assets/images/gradient_badge.jpg" alt="Explanation of the BADGE method">
+<img src="assets/images/gradient_badge.jpg" alt="Explanation of the BADGE method">
 Fig.1 - The gradient norm on the unlabeled sample is less than or equal to the gradient norm on the labelled sample. Thus the change in parameters caused by the selected sample is often higher than the conservative estimate.
 
 
