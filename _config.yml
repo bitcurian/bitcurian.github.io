@@ -20,7 +20,6 @@ twitter_username: "bitcurian"
 github_username: "bitcurian"
 minimal_mistakes_skin: default
 search: true
-url: "vijay-g.github.io"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -34,7 +33,7 @@ timezone: "America/Los_Angeles"
 
 include:
   - _pages
-
+  - _posts
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
