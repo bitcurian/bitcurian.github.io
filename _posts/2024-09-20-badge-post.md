@@ -1,6 +1,6 @@
 ---
 title: "BADGE: A promising Active learning method"
-date: 2025-07-20
+date: 2024-09-20
 ---
 The promise of Active Learning has always appeared to be a mirage when practising deep learning in industrial settings.
 
