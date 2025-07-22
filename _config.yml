@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Chest of Thoughts
-email: vijay.g1729@outlook.com
-description: A collection of blog posts and deep dives on machine learning, computer vision and Natual Language Processing.
-twitter_username: bitcurian
-github_username: bitcurian
+title: "Chest of Thoughts"
+email: "vijay.g1729@outlook.com"
+description: "A collection of blog posts and deep dives on machine learning, computer vision and Natual Language Processing."
+twitter_username: "bitcurian"
+github_username: "bitcurian"
 minimal_mistakes_skin: default
 search: true
-url: vijay-g.github.io
+url: "vijay-g.github.io"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
