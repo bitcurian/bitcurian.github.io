@@ -74,9 +74,9 @@ author:
 
 footer:
   links:
-      - label: "Linkedin"
-      icon: "fas fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/vijay-gunasekaran/"
+    - label: "Linkedin"
+    icon: "fas fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/in/vijay-gunasekaran/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
